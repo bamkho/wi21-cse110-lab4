@@ -52,3 +52,7 @@
  16. === means strict equality meaning the type and value have to be the same unlike == which is only where value has to be the same
  
  17. 'How are you?' gets displayed because 2 == true is false and else if(2) is true because any number beside 0 is true
+ 
+ 19. If the function below is called with the following parameters modifyArray([1,2,3],   doSomething), the result will be [6,8,10]. This is because once the array is passed into the modifyArray function, in the loop, the value that gets pushed into the newArr is the callback function that takes in the array element and another callback which in turn adds num + 2 then passes into the callback which is the function(x) which multiplies that number by 2.
+
+ 
