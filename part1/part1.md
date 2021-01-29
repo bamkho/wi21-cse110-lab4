@@ -25,28 +25,28 @@
 12. The function will return an error because some of the variables in the function are const and within that function, the variables are being ressigned new values.
 
 13.
-  A. student.name
-  B. student['Grad Year']
-  C. student.greeting()
-  D. student['Favorite Teacher'].name
+  A. student.name <br/><br/>
+  B. student['Grad Year'] <br/><br/>
+  C. student.greeting() <br/><br/>
+  D. student['Favorite Teacher'].name <br/><br/>
   E. student.courseLoad[0]
  
 14.
-  A. "32" because the 2 is converted into a string
-  B. 1 because the '3' is converted into a number
-  C. 3 because null is converted into 0
-  D. "3null" because null is converted into a string
-  E. 4 because true is converted into a 1
-  F. 0 because null is conerted into a 0
-  G. "3undefined" because undefined is converted into a string
+  A. "32" because the 2 is converted into a string <br/><br/>
+  B. 1 because the '3' is converted into a number <br/><br/>
+  C. 3 because null is converted into 0 <br/><br/>
+  D. "3null" because null is converted into a string <br/><br/>
+  E. 4 because true is converted into a 1 <br/><br/>
+  F. 0 because null is conerted into a 0 <br/><br/>
+  G. "3undefined" because undefined is converted into a string <br/><br/>
   H. NaN because "3" is converted into NaN
  
 15.
-  A. True because '2' is converted into a number 
-  B. False because it is a string comparison is 
-  C. True because '2' is converted into a number 
-  D. False because of strict equality comparison 
-  E. False because boolean is being compared 
+  A. True because '2' is converted into a number <br/><br/>
+  B. False because it is a string comparison is <br/><br/>
+  C. True because '2' is converted into a number <br/><br/>
+  D. False because of strict equality comparison <br/><br/>
+  E. False because boolean is being compared <br/><br/>
   F. True because Boolean(2) is converted into boolean
  
  16. === means strict equality meaning the type and value have to be the same unlike == which is only where value has to be the same
