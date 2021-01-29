@@ -55,6 +55,8 @@
  
  18. Answer in repo as a .js file
 
- 19. If the function below is called with the following parameters modifyArray([1,2,3],   doSomething), the result will be [6,8,10]. This is because once the array is passed into the modifyArray function, in the loop, the value that gets pushed into the newArr is the callback function that takes in the array element and another callback which in turn adds num + 2 then passes into the callback which is the function(x) which multiplies that number by 2.
+ 19. If the function below is called with the following parameters modifyArray([1,2,3],   doSomething), the result will be [6,8,10]. This is because once the array is passed into the modifyArray function, in the loop, the value that gets pushed into the newArr is the callback function that takes in the array element and another callback which in turn adds num + 2 then passes into the callback which is the function(x) which multiplies that number by 2
 
- 
+ 20. Answer in repo as a .js file
+
+ 21. The output of the code is 1,4,3,2 all on separate lines
